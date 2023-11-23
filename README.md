@@ -1,9 +1,42 @@
-# React + Vite
+# Anshaj Vats - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing the work and skills of Anshaj Vats. This serves as a digital resume, providing an overview of projects, skills, and experiences.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Portfolio
+- [Demo](#demo)
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Demo
+
+Include a link to your live portfolio or screenshots showcasing different sections.
+
+## Description
+
+This portfolio website serves as a digital resume for Anshaj Vats. It includes details about projects, skills, and experiences, providing a comprehensive overview for potential employers or collaborators.
+
+## Features
+
+- Project Showcase
+- Skills Highlight
+- Resume/Experience Overview
+
+## Installation
+
+As this is a portfolio website, no installation is required. Simply visit the live site [here](#your-portfolio-url).
+
+## Usage
+
+Navigate through different sections of the portfolio to explore projects, skills, and experiences.
+
+## Technologies Used
+
+- React
+- Three.js (for 3D elements)
+- (Other technologies used in your portfolio)
