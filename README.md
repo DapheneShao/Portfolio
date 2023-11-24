@@ -40,3 +40,4 @@ Navigate through different sections of the portfolio to explore projects, skills
 - React
 - Three.js (for 3D elements)
 - (Other technologies used in your portfolio)
+- Tailwind css
