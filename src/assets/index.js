@@ -27,14 +27,14 @@ import amazon from "./company/amazon.png";
 import gmg from "./company/gmg.png";
 import usf from "./company/usf.png";
 
-import bank from "./bank.png";
+import bank from "./Bank.png";
 import tripguide from "./tripguide.png";
 import GPT3 from "./GPT3.png";
 
-import live from "./live.png";
+import live from "./Live.png";
 import bryanShaffer from "./bryanShaffer.jpg";
 import olga from "./karpenkoOlga.jpg";
-import wei from "./wei.jpeg";
+import wei from "./Wei.jpeg";
 
 export {
   logo,

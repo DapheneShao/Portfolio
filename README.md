@@ -15,7 +15,7 @@ A personal portfolio website showcasing the work and skills of Anshaj Vats. This
 
 ## Demo
 
-Include a link to your live portfolio or screenshots showcasing different sections.
+https://anshajvats.github.io/Portfolio/
 
 ## Description
 
@@ -29,7 +29,7 @@ This portfolio website serves as a digital resume for Anshaj Vats. It includes d
 
 ## Installation
 
-As this is a portfolio website, no installation is required. Simply visit the live site [here](#your-portfolio-url).
+As this is a portfolio website, no installation is required. Simply visit the live site [here](https://anshajvats.github.io/Portfolio/).
 
 ## Usage
 
