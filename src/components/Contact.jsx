@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { t } from "maath/dist/misc-19a3ec46.esm";
 
 const Contact = () => {
   const formRef = useRef();
@@ -30,18 +31,24 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+
+    // Corrected syntax for defining publicKey
+    const publicKey = "X4UXBHv8pjstTfPCY";
+    const templateKey = "template_i0u6o9u";
+    const servicekey = "service_2iizgq8";
+
     emailjs
       .send(
-        "template_i0u6o9u",
-        "service_2iizgq8",
+        servicekey,
+        templateKey,
         {
           from_name: form.name,
-          to_name: "Anshaj, Vats",
+          to_name: "Anshaj vats",
           from_email: form.email,
           to_email: "9931633906vats@gmail.com",
           message: form.message,
         },
-        "Vmh0GNEelQ6zQ4sy3"
+        publicKey // Use the correct variable here
       )
       .then(
         () => {
