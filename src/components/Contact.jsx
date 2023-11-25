@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { t } from "maath/dist/misc-19a3ec46.esm";
+import { isIOS } from "react-device-detect";
 
 const Contact = () => {
   const formRef = useRef();
