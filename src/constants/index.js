@@ -225,6 +225,7 @@ const projects = [
         ],
         image: GPT3,
         source_code_link: "https://github.com/AnshajVats/GPT3-Webpage",
+        live_link: "https://anshajvats.github.io/GPT3-Webpage/",
     },
     {
         name: "Dall-E",
@@ -254,7 +255,9 @@ const projects = [
             },
         ],
         image: OpenAI,
-        source_code_link: "https://anshajvats.github.io/Dall-E-FrontEnd/",
+        source_code_link: "https://github.com/AnshajVats/dall-e-",
+        live_link: "https://anshajvats.github.io/Dall-E-FrontEnd/",
+
     },
 
 ];
