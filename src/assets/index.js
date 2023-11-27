@@ -35,6 +35,7 @@ import live from "./Live.png";
 import bryanShaffer from "./bryanShaffer.jpg";
 import olga from "./karpenkoOlga.jpg";
 import wei from "./Wei.jpeg";
+import OpenAI from "./openAI.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   bryanShaffer,
   olga,
   wei,
+  OpenAI,
 };

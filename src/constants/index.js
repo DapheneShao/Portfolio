@@ -20,13 +20,13 @@ import {
     gmg,
     usf,
     bank,
-    threejs,
     fastApi,
     Python,
     GPT3,
     bryanShaffer,
     olga,
     wei,
+    OpenAI,
 } from "../assets";
 
 export const navLinks = [
@@ -225,6 +225,36 @@ const projects = [
         ],
         image: GPT3,
         source_code_link: "https://github.com/AnshajVats/GPT3-Webpage",
+    },
+    {
+        name: "Dall-E",
+        description:
+            "Innovative Image Generation with Bing Api hosted on Azure server. This project is inspired by OpenAI's Dall-E.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "FullStack",
+                color: "pink-text-gradient",
+            },
+
+            {
+                name: "MongoDB",
+                color: "green-text-gradient",
+            },
+        ],
+        image: OpenAI,
+        source_code_link: "https://anshajvats.github.io/Dall-E-FrontEnd/",
     },
 
 ];
