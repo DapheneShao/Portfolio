@@ -127,7 +127,7 @@ const experiences = [
         date: "March 2023 - Sep 2023",
         points: [
             "Devloped and API that can create virtual machines on all cloud providers",
-            "Creaated the design for the API using Figma",
+            "Created the design for the API using Figma",
             "Created the frontend for the API using ReactJS",
         ],
     },
@@ -140,7 +140,7 @@ const experiences = [
         points: [
             "Devloped games on Unity",
             "Lead a team of 3 people to create a game",
-            "Then helped the students built the game in there summer camp of 2022",
+            "Then helped students build the game in their summer camp of 2022",
         ],
     },
     {
@@ -151,7 +151,7 @@ const experiences = [
         date: "Jan 2022 - Dec 2023",
         points: [
             "Graded assignments",
-            "Helped students with there assignments",
+            "Helped students in their assignments",
             "Helped the professor with the course",
             "Created assignments for the students",
         ],
