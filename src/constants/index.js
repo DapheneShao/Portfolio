@@ -126,7 +126,7 @@ const experiences = [
         iconBg: "#383E56",
         date: "March 2023 - Sep 2023",
         points: [
-            "Devloped and API that can create virtual machines on all cloud providers",
+            "Developed and API that can create virtual machines on all cloud providers",
             "Created the design for the API using Figma",
             "Created the frontend for the API using ReactJS",
         ],
@@ -138,7 +138,7 @@ const experiences = [
         iconBg: "#383E56",
         date: "March 2022 - July 2022",
         points: [
-            "Devloped games on Unity",
+            "Developed games on Unity",
             "Lead a team of 3 people to create a game",
             "Then helped students build the game in their summer camp of 2022",
         ],
