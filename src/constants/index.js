@@ -28,6 +28,7 @@ import {
   wei,
   OpenAI,
   tank,
+  YouTube,
 } from "../assets";
 
 export const navLinks = [
@@ -298,7 +299,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tank,
+    image: YouTube,
     source_code_link:
       "https://github.com/AnshajVats/Youtube-Clone-FullStack-website",
   },

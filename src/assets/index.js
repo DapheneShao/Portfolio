@@ -36,7 +36,7 @@ import bryanShaffer from "./bryanShaffer.jpg";
 import olga from "./karpenkoOlga.jpg";
 import wei from "./Wei.jpeg";
 import OpenAI from "./openAI.png";
-import tank from "./tank.png";
+import tank from "./tankGame.png";
 import YouTube from "./YouTubeClone.png";
 
 export {
