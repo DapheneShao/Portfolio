@@ -36,6 +36,8 @@ import bryanShaffer from "./bryanShaffer.jpg";
 import olga from "./karpenkoOlga.jpg";
 import wei from "./Wei.jpeg";
 import OpenAI from "./openAI.png";
+import tank from "./tank.png";
+import YouTube from "./YouTubeClone.png";
 
 export {
   logo,
@@ -72,4 +74,6 @@ export {
   olga,
   wei,
   OpenAI,
+  tank,
+  YouTube,
 };
