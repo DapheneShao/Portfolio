@@ -30,45 +30,49 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
-
-    // Corrected syntax for defining publicKey
-    const publicKey = "X4UXBHv8pjstTfPCY";
-    const templateKey = "template_i0u6o9u";
-    const servicekey = "service_2iizgq8";
-
-    emailjs
-      .send(
-        servicekey,
-        templateKey,
-        {
-          from_name: form.name,
-          to_name: "Anshaj vats",
-          from_email: form.email,
-          to_email: "9931633906vats@gmail.com",
-          message: form.message,
-        },
-        publicKey // Use the correct variable here
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+    window.location.href = `mailto:zhuojuns@andrew.cmu.edu?subject=[Portfolio Website] &body=Hi, my name is ${form.name}. ${form.message} (${form.email})`;
   };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+
+  //   // Corrected syntax for defining publicKey
+  //   const publicKey = "X4UXBHv8pjstTfPCY";
+  //   const templateKey = "template_i0u6o9u";
+  //   const servicekey = "service_2iizgq8";
+
+  //   emailjs
+  //     .send(
+  //       servicekey,
+  //       templateKey,
+  //       {
+  //         from_name: form.name,
+  //         to_name: "Zhuojun Shao vats",
+  //         from_email: form.email,
+  //         to_email: "zhuojuns@gmail.com",
+  //         message: form.message,
+  //       },
+  //       publicKey // Use the correct variable here
+  //     )
+  //     .then(
+  //       () => {
+  //         setLoading(false);
+  //         alert("Thank you. I will get back to you as soon as possible.");
+
+  //         setForm({
+  //           name: "",
+  //           email: "",
+  //           message: "",
+  //         });
+  //       },
+  //       (error) => {
+  //         setLoading(false);
+  //         console.error(error);
+
+  //         alert("Ahh, something went wrong. Please try again.");
+  //       }
+  //     );
+  // };
 
   return (
     <div

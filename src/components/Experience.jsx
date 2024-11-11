@@ -24,11 +24,11 @@ const ExperienceCard = ({ experience }) => {
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <img
+          {/* <img
             src={experience.icon}
             alt={experience.company_name}
             className="w-[60%] h-[60%] object-contain"
-          />
+          /> */}
         </div>
       }
     >
@@ -64,7 +64,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          work and project Experience.
         </h2>
       </motion.div>
 

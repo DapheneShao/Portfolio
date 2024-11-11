@@ -52,7 +52,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -122,48 +122,62 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SDE Intern",
-    company_name: "Amazon",
+    title: "Real-Time Collaborative Chat Platform",
+    company_name: "React, Node.js, MongoDB, Socket.io",
     icon: amazon,
     iconBg: "#383E56",
-    date: "March 2023 - Sep 2023",
+    date: "May. 2024 - July. 2024",
     points: [
-      "Developed and API that can create virtual machines on all cloud providers",
-      "Created the design for the API using Figma",
-      "Created the frontend for the API using ReactJS",
+      "Led a 5 members team to implement real-time chat functionality, facilitating regular meetings to address challenges and ensuring seamless integration, resulting in a 95% user satisfaction rate.",
+      "Implemented a registration and login system using Node.js and MongoDB in this full-stack application, ensuring secure authentication with Passport.js, reducing unauthorized access attempts by 38%.",
+      "Developed real-time chat functionality with React and Socket.io, utilizing REST API for seamless communication and data exchange, enabling dynamic updates of chat messages without page refreshes and achieved a 95% user satisfaction rate for real-time interactions.",
+      "Integrated chat message storage using MongoDB Atlas, enabling scalable and reliable cloud-based access to historical messages, resulting in a 100% message retention rate and improving user retention by 31%."
     ],
   },
   {
-    title: "Fellowship",
-    company_name: "Girl makes Game",
+    title: "Intelligent Financial Maturity Systems",
+    company_name: "HTML/CSS, JavaScript, Spring Boot, MySQL",
     icon: gmg,
     iconBg: "#383E56",
-    date: "March 2022 - July 2022",
+    date: "Jan. 2024 - Jun. 2024",
     points: [
-      "Developed games on Unity",
-      "Lead a team of 3 people to create a game",
-      "Then helped students build the game in their summer camp of 2022",
+      "Established a front-end component library, used Git for version management, and built component documents to facilitate maintenance, reducing front-end development time by 32% and decreasing the code volume by 47%.",
+      "Handled various requests from the front end, including expert model processing and enterprise personnel evaluation employing the Spring Boot framework and complex SQL queries for data analysis.",
+      "Set up a MySQL database to store more than 200 expert models and maturity evaluation results.",
     ],
   },
   {
-    title: "Teaching Assistant",
-    company_name: "University of San Francisco",
+    title: "Atmospheric Pollution Monitoring Platform",
+    company_name: "Zhejiang Tongxing Technology CO., LTD (Software Engineer Intern)",
     icon: usf,
     iconBg: "#383E56",
-    date: "Jan 2022 - Dec 2023",
+    date: "Jul. 2023 - Sep. 2023",
     points: [
-      "Graded assignments",
-      "Helped students in their assignments",
-      "Helped the professor with the course",
-      "Created assignments for the students",
+      "Optimized the construction site pop-up window by implementing lazy loading, resulting in a 21% reduction in homepage resource usage and eliminating instances of blank pages.",
+      "Second-encapsulated the button component of element-react with debounce function to implement the button’s anti-repeated click function, making user operations smoother by 23% and increasing satisfaction by 15%.",
+      "Integrated Mapbox maps via Mapbox GL JS, optimizing map configurations, reducing map load times by 18%.",
+      "Spearheaded discussions and coordinated with colleagues to enhance data visualization through customizing map styles and adjusting data sources, improving clarity by 27%.",
     ],
   },
+  {
+    title: "Elderly Health Monitoring Platform",
+    company_name: "Zhejiang Zhengyuan Intelligent Technology CO., LTD (Software Engineer Intern)",
+    icon: usf,
+    iconBg: "#383E56",
+    date: "Mar. 2023 - Jun. 2023",
+    points: [
+      "Maintained Vue.js interface to display vital signs data including heart rate, blood pressure, and oxygen levels.",
+      "Enhanced the usability of visualization graphics in ECharts by adjusting font size and adding visual icons, leading to a 26% increase in usability for elderly users, improving overall UX.",
+      "Encapsulated Hikvision camera plugin as a reusable Vue.js component, cutting code load by 32%.",
+      "Streamlined deployment using Git/GitHub and CI/CD pipelines with GitHub Actions, deploying to Render, cutting deployment time by 45% and reducing update downtime by 31%.",
+    ],
+  }
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I am confident that Anshaj will be able to succeed with his computer science major. He has the skill and drive that are optimal for any academic pursuits.He has the qualities that an educator looks for in all of their students, and I cannot recommend him enough.",
+      "I am confident that Zhuojun Shao will be able to succeed with his computer science major. He has the skill and drive that are optimal for any academic pursuits.He has the qualities that an educator looks for in all of their students, and I cannot recommend him enough.",
     name: "Brayan shaffer",
     designation: "Professor",
     company: "University of Massachusetts",
@@ -179,7 +193,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Anshaj is avery good devlopment engineer. he has a good sense of ownership and can get projects done on time.",
+      "Zhuojun Shao is avery good devlopment engineer. he has a good sense of ownership and can get projects done on time.",
     name: "Wei Zhang",
     designation: "Software Development Engineer",
     company: "Amazon",
@@ -203,8 +217,8 @@ const projects = [
       },
     ],
     image: bank,
-    source_code_link: "https://github.com/AnshajVats/hoboBank",
-    live_link: "https://anshajvats.github.io/hoboBank",
+    source_code_link: "https://github.com/Zhuojun ShaoVats/hoboBank",
+    live_link: "https://Zhuojun Shaovats.github.io/hoboBank",
   },
   {
     name: "GPT-3",
@@ -225,8 +239,8 @@ const projects = [
       },
     ],
     image: GPT3,
-    source_code_link: "https://github.com/AnshajVats/GPT3-Webpage",
-    live_link: "https://anshajvats.github.io/GPT3-Webpage/",
+    source_code_link: "https://github.com/Zhuojun ShaoVats/GPT3-Webpage",
+    live_link: "https://Zhuojun Shaovats.github.io/GPT3-Webpage/",
   },
   {
     name: "Dall-E",
@@ -256,8 +270,8 @@ const projects = [
       },
     ],
     image: OpenAI,
-    source_code_link: "https://github.com/AnshajVats/dall-e-",
-    live_link: "https://anshajvats.github.io/Dall-E-FrontEnd/",
+    source_code_link: "https://github.com/Zhuojun ShaoVats/dall-e-",
+    live_link: "https://Zhuojun Shaovats.github.io/Dall-E-FrontEnd/",
   },
   {
     name: "Tank Game",
@@ -274,8 +288,8 @@ const projects = [
       },
     ],
     image: tank,
-    source_code_link: "https://github.com/AnshajVats/tank-game",
-    live_link: "https://github.com/AnshajVats/tank-game",
+    source_code_link: "https://github.com/Zhuojun ShaoVats/tank-game",
+    live_link: "https://github.com/Zhuojun ShaoVats/tank-game",
   },
   {
     name: "YouTube Clone",
@@ -301,7 +315,7 @@ const projects = [
     ],
     image: YouTube,
     source_code_link:
-      "https://github.com/AnshajVats/Youtube-Clone-FullStack-website",
+      "https://github.com/Zhuojun ShaoVats/Youtube-Clone-FullStack-website",
   },
 ];
 

@@ -42,12 +42,16 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl laeding-[30px]
       "
       >
-        I'm a skilled full-stack developer with experince in javascript, react,
-        Three.js, node, express, mongoDB, and python. I'm a quick learner and a
-        team player. I'm passionate about creating beautiful and functional
-        websites and applications. I'm also a 3D artist and a game developer.
-        I'm currently pursuing a bachelor's degree in computer science. I'm
-        currently looking for a full-time position as a full-stack developer.
+        Hello! I'm <strong>Zhuojun Shao</strong>, with over <strong>three years of experience </strong> 
+        in <strong>frontend</strong> and <strong>full-stack development</strong>, focusing on   
+        <strong> React</strong>, <strong>MongoDB</strong>, and <strong>Node.js</strong>. I'm passionate 
+        about leveraging technology to solve <strong>real-world problems</strong> and creating products 
+        with a strong emphasis on <strong>user experience</strong>. My work in areas like <strong>pollution 
+        monitoring</strong>, <strong>financial systems</strong>, and <strong>health platforms</strong> has 
+        allowed me to optimize performance, enhance usability, and integrate tools like  
+        <strong> Mapbox GL JS</strong>, <strong>Socket.io</strong>, and <strong>AWS</strong>. I'm actively 
+        seeking a <strong>Software Engineer intern position</strong> for <strong>Summer 2025</strong> to 
+        continue applying my skills to impactful projects that make a difference.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

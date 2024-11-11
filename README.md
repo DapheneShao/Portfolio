@@ -1,6 +1,6 @@
-# Anshaj Vats - Portfolio
+# Zhuojun Shao Vats - Portfolio
 
-A personal portfolio website showcasing the work and skills of Anshaj Vats. This serves as a digital resume, providing an overview of projects, skills, and experiences.
+A personal portfolio website showcasing the work and skills of Zhuojun Shao Vats. This serves as a digital resume, providing an overview of projects, skills, and experiences.
 
 ## Table of Contents
 
@@ -15,11 +15,11 @@ A personal portfolio website showcasing the work and skills of Anshaj Vats. This
 
 ## Demo
 
-https://anshajvats.github.io/Portfolio/
+https://Zhuojun Shaovats.github.io/Portfolio/
 
 ## Description
 
-This portfolio website serves as a digital resume for Anshaj Vats. It includes details about projects, skills, and experiences, providing a comprehensive overview for potential employers or collaborators.
+This portfolio website serves as a digital resume for Zhuojun Shao Vats. It includes details about projects, skills, and experiences, providing a comprehensive overview for potential employers or collaborators.
 
 ## Features
 
@@ -29,7 +29,7 @@ This portfolio website serves as a digital resume for Anshaj Vats. It includes d
 
 ## Installation
 
-As this is a portfolio website, no installation is required. Simply visit the live site [here](https://anshajvats.github.io/Portfolio/).
+As this is a portfolio website, no installation is required. Simply visit the live site [here](https://Zhuojun Shaovats.github.io/Portfolio/).
 
 ## Usage
 
